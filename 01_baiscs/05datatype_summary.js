@@ -29,8 +29,8 @@ const heroes =["shaktiman", "naagraj", "doga"] //array
 //objects- key value pair
 
 let myObj={
-    name: suraj,
-    surname: Paswan,
+    name: "suraj",
+    surname: "Paswan",
     age: 22
 }
 
@@ -41,4 +41,29 @@ const myFunction = function(){
     console.log()
 }
 
+/*********************************************************************************************************************** */
 
+// stack(primitive)     heap(non- primitive)
+//stack
+
+let myYoutubename= "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername ="chaiaurcode"
+
+console.log(myYoutubename)  // hiteshchoudharydotcom
+console.log(anothername)  //chaiaurcode
+
+//heap
+
+let userOne= {
+    email : "user@googledotcom",
+    upi : "user@ybl"
+}
+
+let userTwo= userOne
+
+userTwo.email="srjtkd0607@gmail.com"
+
+console.log(userOne.email)  //srjtkd0607@gmail.com
+console.log(userTwo.email)  // srjtkd0607@gmail.com
